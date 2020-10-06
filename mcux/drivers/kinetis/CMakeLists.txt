@@ -39,6 +39,7 @@ zephyr_library_sources_ifdef(CONFIG_UART_MCUX_LPSCI	fsl_lpsci.c)
 zephyr_library_sources_ifdef(CONFIG_UART_MCUX_LPUART	fsl_lpuart.c)
 zephyr_library_sources_ifdef(CONFIG_WDT_MCUX_WDOG	fsl_wdog.c)
 zephyr_library_sources_ifdef(CONFIG_WDT_MCUX_WDOG32	fsl_wdog32.c)
+zephyr_library_sources_ifdef(CONFIG_CMP_MCUX		fsl_cmp.c)
 
 
 if(NOT CONFIG_ASSERT OR CONFIG_FORCE_NO_ASSERT)
